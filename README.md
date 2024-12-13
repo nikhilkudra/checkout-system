@@ -19,7 +19,8 @@ src/
 ├── pricingRules/                # Pricing rule implementations
 │   ├── ThreeForTwoAppleTV.ts    # 3-for-2 pricing rule for Apple TVs
 │   └── BulkDiscountSuperIPad.ts # Bulk discount for Super iPads
-├── tests/                       # Unit tests
+├── 
+tests/                       # Unit tests
 │   └── checkout.test.ts         # Jest test suite for Checkout system
 index.ts                         # Entry point for the application
 ```
@@ -43,7 +44,7 @@ index.ts                         # Entry point for the application
    ```
 
 ### Running the Application
-The `index.ts` file serves as the entry point. You can run it to see the Checkout system in action.
+The `index.ts` file serves as the entry point , we can run it to see the Checkout system in action.
 
 1. Build and run the code:
    ```bash
@@ -57,7 +58,7 @@ npm test
 ```
 
 ## Usage
-Modify the `index.ts` file to scan items and calculate totals based on your requirements. Example usage is provided below:
+Modify the `index.ts` file to scan items and calculate totals based on  requirements. Example usage is provided below:
 
 ```typescript
 import { Checkout } from "./src/checkout";
@@ -91,6 +92,3 @@ export class NewPricingRule implements PricingRule {
   }
 }
 ```
-
-## License
-This project is licensed under the MIT License.

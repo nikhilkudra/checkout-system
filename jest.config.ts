@@ -8,7 +8,7 @@ export default {
     transformIgnorePatterns: ['/node_modules/'],  // Ignore node_modules for transformation
     globals: {
         'ts-jest': {
-            useBabelrc: true,  // Use Babel configuration (if you are using Babel)
+            useBabelrc: true,  
         },
     },
 };
